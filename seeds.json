@@ -1,0 +1,251 @@
+{
+  "meals": [
+    {
+      "name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
+      "description": "Classic Italian dish with hearty meat sauce served over spaghetti noodles.",
+      "images": {
+        "path": "spaghetti_bolognese.jpg",
+        "alt": "Spaghetti Bolognese",
+        "width": 800,
+        "height": 600
+      },
+      "type": "pasta",
+      "recipeLink": "https://www.example.com/spaghetti-bolognese-recipe"
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "ingredients": ["romaine lettuce", "grilled chicken", "parmesan cheese", "croutons", "Caesar dressing"],
+      "description": "Classic salad with grilled chicken, crisp lettuce, parmesan cheese, and topped with a creamy Caesar dressing.",
+      "images": {
+        "path": "chicken_caesar_salad.jpg",
+        "alt": "Chicken Caesar Salad",
+        "width": 1200,
+        "height": 900
+      },
+      "type": "salad",
+      "recipeLink": "https://www.example.com/chicken-caesar-salad-recipe"
+    },
+    {
+      "name": "Beef Tacos",
+      "ingredients": ["beef", "taco shells", "lettuce", "tomato", "cheddar cheese"],
+      "description": "Delicious beef tacos with seasoned ground beef, fresh toppings, and melted cheddar cheese.",
+      "images": {
+        "path": "beef_tacos.jpg",
+        "alt": "Beef Tacos",
+        "width": 1000,
+        "height": 750
+      },
+      "type": "mexican",
+      "recipeLink": "https://www.example.com/beef-tacos-recipe"
+    },
+    {
+      "name": "Margherita Pizza",
+      "ingredients": ["pizza dough", "tomato sauce", "fresh mozzarella", "basil", "olive oil"],
+      "description": "Simple and classic pizza with fresh mozzarella, tomato sauce, and basil leaves.",
+      "images": {
+        "path": "margherita_pizza.jpg",
+        "alt": "Margherita Pizza",
+        "width": 900,
+        "height": 600
+      },
+      "type": "pizza",
+      "recipeLink": "https://www.example.com/margherita-pizza-recipe"
+    },
+    {
+      "name": "Sushi Platter",
+      "ingredients": ["sushi rice", "assorted fish", "nori seaweed", "avocado", "cucumber"],
+      "description": "Beautiful assortment of sushi roll pieces including sashimi, nigiri, and maki rolls.",
+      "images": {
+        "path": "sushi_platter.jpg",
+        "alt": "Sushi Platter",
+        "width": 1500,
+        "height": 1000
+      },
+      "type": "japanese",
+      "recipeLink": "https://www.example.com/sushi-platter-recipe"
+    },
+    {
+      "name": "Lemon Garlic Roast Chicken",
+      "ingredients": ["whole chicken", "lemon", "garlic", "rosemary", "olive oil"],
+      "description": "Juicy and flavorful roast chicken seasoned with fresh herbs, garlic, and lemon.",
+      "images": {
+        "path": "roast_chicken.jpg",
+        "alt": "Roast Chicken",
+        "width": 1200,
+        "height": 800
+      },
+      "type": "roast",
+      "recipeLink": "https://www.example.com/lemon-garlic-roast-chicken-recipe"
+    },
+    {
+      "name": "Ramen Noodle Soup",
+      "ingredients": ["ramen noodles", "chicken broth", "sliced pork", "soft boiled egg", "green onions"],
+      "description": "Comforting and satisfying noodle soup with savory broth, tender pork, and flavorful toppings.",
+      "images": {
+        "path": "ramen_noodle_soup.jpg",
+        "alt": "Ramen Noodle Soup",
+        "width": 1100,
+        "height": 700
+      },
+      "type": "noodle",
+      "recipeLink": "https://www.example.com/ramen-noodle-soup-recipe"
+    },
+    {
+      "name": "BBQ Pulled Pork Sandwich",
+      "ingredients": ["pulled pork", "BBQ sauce", "buns", "coleslaw", "pickles"],
+      "description": "A hearty and delicious sandwich packed with tender pulled pork, tangy BBQ sauce, and crunchy coleslaw.",
+      "images": {
+        "path": "bbq_pulled_pork_sandwich.jpg",
+        "alt": "BBQ Pulled Pork Sandwich",
+        "width": 1000,
+        "height": 800
+      },
+      "type": "sandwich",
+      "recipeLink": "https://www.example.com/bbq-pulled-pork-sandwich-recipe"
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "ingredients": ["broccoli", "carrots", "snap peas", "bell peppers", "tofu"],
+      "description": "Colorful and nutritious stir-fry with a variety of fresh vegetables and tofu, served with a flavorful sauce.",
+      "images": {
+        "path": "vegetable_stir_fry.jpg",
+        "alt": "Vegetable Stir-Fry",
+        "width": 1200,
+        "height": 900
+      },
+      "type": "vegetarian",
+      "recipeLink": "https://www.example.com/vegetable-stir-fry-recipe"
+    },
+    {
+      "name": "Beef Stew",
+      "ingredients": ["beef chunks", "potatoes", "carrots", "onions", "beef broth"],
+      "description": "Hearty and satisfying beef stew with tender chunks of beef, potatoes, and savory broth.",
+      "images": {
+        "path": "beef_stew.jpg",
+        "alt": "Beef Stew",
+        "width": 1100,
+        "height": 700
+      },
+      "type": "stew",
+      "recipeLink": "https://www.example.com/beef-stew-recipe"
+    },
+    {
+      "name": "Eggplant Parmesan",
+      "ingredients": ["eggplant", "mozzarella cheese", "parmesan cheese", "tomato sauce", "bread crumbs"],
+      "description": "Sliced eggplant coated in crispy breadcrumbs, layered with mozzarella and parmesan cheese, and baked with tomato sauce.",
+      "images": {
+        "path": "eggplant_parmesan.jpg",
+        "alt": "Eggplant Parmesan",
+        "width": 1000,
+        "height": 800
+      },
+      "type": "italian",
+      "recipeLink": "https://www.example.com/eggplant-parmesan-recipe"
+    },
+    {
+      "name": "Fish and Chips",
+      "ingredients": ["white fish fillets", "potatoes", "flour", "beer", "lemon wedges"],
+      "description": "Crispy battered fish served with hot and fluffy chips, accompanied by a side of tangy tartar sauce.",
+      "images": {
+        "path": "fish_and_chips.jpg",
+        "alt": "Fish and Chips",
+        "width": 1200,
+        "height": 900
+      },
+      "type": "seafood",
+      "recipeLink": "https://www.example.com/fish-and-chips-recipe"
+    },
+    {
+      "name": "Chicken Enchiladas",
+      "ingredients": ["shredded chicken", "enchilada sauce", "tortillas", "cheese", "sour cream"],
+      "description": "Flavorful shredded chicken wrapped in corn tortillas, topped with enchilada sauce and melted cheese.",
+      "images": {
+        "path": "chicken_enchiladas.jpg",
+        "alt": "Chicken Enchiladas",
+        "width": 1100,
+        "height": 800
+      },
+      "type": "mexican",
+      "recipeLink": "https://www.example.com/chicken-enchiladas-recipe"
+    },
+    {
+      "name": "Mushroom Risotto",
+      "ingredients": ["arborio rice", "mushrooms", "onion", "garlic", "parmesan cheese"],
+      "description": "Creamy and flavorful risotto made with tender arborio rice, earthy mushrooms, and aromatic garlic.",
+      "images": {
+        "path": "mushroom_risotto.jpg",
+        "alt": "Mushroom Risotto",
+        "width": 1000,
+        "height": 800
+      },
+      "type": "italian",
+      "recipeLink": "https://www.example.com/mushroom-risotto-recipe"
+    },
+    {
+      "name": "Tofu Pad Thai",
+      "ingredients": ["rice noodles", "tofu", "bean sprouts", "peanuts", "tamarind sauce"],
+      "description": "Delicious and tangy stir-fried rice noodles with crispy tofu, crunchy peanuts, and fresh bean sprouts.",
+      "images": {
+        "path": "tofu_pad_thai.jpg",
+        "alt": "Tofu Pad Thai",
+        "width": 1200,
+        "height": 900
+      },
+      "type": "asian",
+      "recipeLink": "https://www.example.com/tofu-pad-thai-recipe"
+    },
+    {
+      "name": "Beef and Broccoli Stir-Fry",
+      "ingredients": ["beef sirloin", "broccoli florets", "soy sauce", "ginger", "rice vinegar"],
+      "description": "Savory and tender beef stir-fried with crisp broccoli in a flavorful soy-ginger sauce.",
+      "images": {
+        "path": "beef_and_broccoli_stir_fry.jpg",
+        "alt": "Beef and Broccoli Stir-Fry",
+        "width": 1100,
+        "height": 800
+      },
+      "type": "asian",
+      "recipeLink": "https://www.example.com/beef-and-broccoli-stir-fry-recipe"
+    },
+    {
+      "name": "Chicken Pot Pie",
+      "ingredients": ["chicken breast", "carrots", "peas", "pastry dough", "chicken broth"],
+      "description": "Comforting and delicious pot pie filled with tender chicken, crisp vegetables, and savory gravy, all in a flaky pastry crust.",
+      "images": {
+        "path": "chicken_pot_pie.jpg",
+        "alt": "Chicken Pot Pie",
+        "width": 1000,
+        "height": 800
+      },
+      "type": "pie",
+      "recipeLink": "https://www.example.com/chicken-pot-pie-recipe"
+    },
+    {
+      "name": "Shrimp Scampi",
+      "ingredients": ["shrimp", "pasta", "butter", "garlic", "lemon juice"],
+      "description": "Luscious shrimp sautéed in a garlicky butter sauce, served over a bed of cooked pasta.",
+      "images": {
+        "path": "shrimp_scampi.jpg",
+        "alt": "Shrimp Scampi",
+        "width": 1100,
+        "height": 700
+      },
+      "type": "seafood",
+      "recipeLink": "https://www.example.com/shrimp-scampi-recipe"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "ingredients": ["chicken drumsticks", "yogurt", "tandoori spice", "ginger", "lime"],
+      "description": "Flavorful and spicy grilled chicken marinated in yogurt, aromatic spices, and tangy lime juice.",
+      "images": {
+        "path": "tandoori_chicken.jpg",
+        "alt": "Tandoori Chicken",
+        "width": 1200,
+        "height": 900
+      },
+      "type": "indian",
+      "recipeLink": "https://www.example.com/tandoori-chicken-recipe"
+    }
+  ]
+}

@@ -9,21 +9,21 @@ const openai = new OpenAI({
 });
 
 
-async function main(amount=20){
+async function main(amount=5){
 
     // Get typescript file
-    const prompt = await question("Path of interface file: ")
-    console.log({prompt})
+    const path = await question("Path of interface file: ")
     
     // Parse file to string
-    const schema = fs.readFileSync(__dirname + '/test.ts').toString()
+    const schema = fs.readFileSync(__dirname + `/${path}`).toString()
 
     // call generative function {amount} times
     const completion = await openai.chat.completions.create({
         messages: [
             {"role": "system", "content": "Output JSON formatted mock data based on typescript interfaces."},
             {"role": "user", "content": schema},
-            {"role": "assistant", "content": `Create ${amount} different ojbects nested in an array` }
+            {"role": "assistant", "content": "If multiple interfaces or types, create seperate arrays."},
+            {"role": "user", "content": `Create ${amount} of each interface or type within an array` },
         ],
         model: "gpt-3.5-turbo-1106",
         response_format: { type: "json_object" },
